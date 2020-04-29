@@ -1,0 +1,6 @@
+Hugo_Symbol	Entrez_Gene_Id	Center	NCBI_Build	Chromosome	Start_Position	End_Position	Strand	Variant_Classification	Variant_Type	Reference_Allele	Tumor_Seq_Allele1	Tumor_Seq_Allele2	Tumor_Sample_Barcode	Protein_Change	i_TumorVAF_WU	i_transcript_name
+PDGFRA	NA	NA	37	4	55141055	55141055	NA	synonymous_variant	SNP	A	A	G	yourSampleName	p.P592P	0.99422	NM_001347828
+APC	NA	NA	37	5	112175770	112175770	NA	synonymous_variant	SNP	G	G	A	yourSampleName	p.T1511T	0.55857	NM_001354896
+EGFR	NA	NA	37	7	55259515	55259515	NA	missense_variant	SNP	T	T	G	yourSampleName	p.L858R	0.14826	NM_005228
+ABCB1	NA	NA	37	7	87138645	87138645	NA	synonymous_variant	SNP	A	A	G	yourSampleName	p.I1215I	0.90299	NM_001348945
+TP53	NA	NA	37	17	7579472	7579472	NA	missense_variant	SNP	G	G	C	yourSampleName	p.P72R	0.82172	NM_000546
