@@ -32,5 +32,5 @@ concatenate all of **yourSampleName.maf**, but not necessary
 ## screenshot
 ![img](https://github.com/tsy19900929/snpeffToMaf/blob/master/plotmafSummary.png)
 
-## issues
-![img](https://github.com/tsy19900929/snpeffToMaf/blob/master/issues.png)
+## issue
+![img](https://github.com/tsy19900929/snpeffToMaf/blob/master/issue.png)
