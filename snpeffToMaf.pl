@@ -70,9 +70,12 @@ while(<INFILE>){
         $Reference_Allele = '-';
         $Tumor_Seq_Allele2 = substr($Tumor_Seq_Allele2,1);
         $Variant_Type ="INS";
+    }elsif ((length($Reference_Allele) >1 ) && (length($Tumor_Seq_Allele2) > 1)){
+        $End_Position = $Start_Position;
+        $Variant_Type ="Complex";
     };
     $Tumor_Seq_Allele1 = $Reference_Allele;
- 
+
     if ($line[7] =~ /(ANN=\S+)/){
         ($Variant_Classification,$Hugo_Symbol,$i_transcript_name,$Protein_Change)=(split /\|/,$1)[1,3,6,10];
         next if not $Protein_Change;
