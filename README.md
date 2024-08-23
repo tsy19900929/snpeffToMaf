@@ -2,7 +2,7 @@
 SnpEff is more tiny than VEP, and more HGVS than ANNOVAR  
 e.g, ```java -jar snpEff.jar hg19 yourSampleName.normalize.vcf -hgvs1LetterAa -canon > yourSampleName.snpeff.vcf```  
   
-🔥 support complex variants(greater than one base)
+🔥 support complex variant(greater than one base)
 
 
 ## a test environment  
