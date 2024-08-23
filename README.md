@@ -14,7 +14,7 @@ e.g, ```java -jar snpEff.jar hg19 yourSampleName.normalize.vcf -hgvs1LetterAa -c
 1. in shell  
 ```perl snpeffToMaf.pl yourSampleName.snpeff.vcf 100 0.05```  
 *100* for minimum depth *0.05* for minimum allele frequency  
-***warn: you may need reformat with GT:DP:AD if vcf created by other variant callers. https://samtools.github.io/bcftools/howtos/query.html + https://samtools.github.io/bcftools/bcftools.html#expressions***
+***warn: you may reformat with GT:DP:AD if vcf created by other variant callers. https://samtools.github.io/bcftools/howtos/query.html + https://samtools.github.io/bcftools/bcftools.html#expressions***
 
 2. in shell  
 ```cat *maf | awk '!/Hugo_Symbol/ || NR==1' > all.maf```  
